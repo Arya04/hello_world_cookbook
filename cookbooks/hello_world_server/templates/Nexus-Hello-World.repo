@@ -1,6 +1,6 @@
 [snapshots]
 name=Snapshots
-baseurl=http://<PUBLIC_DNS>:8081/nexus/content/repositories/snapshots/
+baseurl=http://172.31.2.231:8081/nexus/content/repositories/snapshots/
 enabled=1
 protect=0
 gpgcheck=0
