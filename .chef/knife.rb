@@ -7,3 +7,4 @@ node_name                "chefadmin"
 client_key               "#{current_dir}/chefadmin.pem"
 chef_server_url          "https://172.31.2.242/organizations/4thcoffee"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:aws_credential_file]="/home/centos/aws.txt"
